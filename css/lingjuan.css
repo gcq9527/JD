@@ -1,0 +1,303 @@
+
+.zhong{
+    width: 2000px;
+    position: relative;
+    left: 144px;
+}
+.zhong div{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.zhong .haoq{
+    vertical-align: middle;
+    width: 2000px;
+    text-align: center;
+}
+.zhong .tu{
+    float: left;
+    width: 104px;
+    height: 104px;
+    margin: 20px;
+    border: 1px solid #f1f2f6;
+    transition: all .2s ease-in-out,opacity 1s;
+    transform: translateX(5px);
+}
+.zhong .lie1{
+    overflow: visible;
+    position: relative;
+    float: left;
+    width: 500px;
+    margin: 0 25px 20px 0;
+}
+.zhong img{
+    border: 0;
+    vertical-align: middle;
+}
+body {
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #666;
+    background: #fff;
+}
+.zhong .jie{
+    position: relative;
+    float: left;
+    z-index: 2;
+    width: 220px;
+    height: 120px;
+    padding: 10px 0 15px;
+    color: #333;
+    outline: 0;
+}
+.zhong em{
+    color: #f23030;
+}
+.zhong strong{
+    color: #f23030;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font: 400 34px arial;
+    vertical-align: top;
+}
+.zhong .wd{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    font-size: 12px;
+    margin: 12px 0 0 10px;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #f23030;
+    padding: 0 5px;
+    background: #fff4ec;
+}
+.zhong .ke{
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    cursor: default;
+}
+.zhong .text{
+    float: left;
+    margin-right: 5px;
+    color: #666;
+}
+.zhong .shu{
+    display: block;
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 9px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.zhong .sh{
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 9px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.zhong .s{
+    background-color: rosybrown;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 8px;
+    border-radius: 5px;
+    width: 22%;
+}
+.zhong .i1{
+    top: -1px;
+    background-position: 0 -9px;
+}
+.zhong .i2{
+    bottom: -1px;
+    background-position: 0 0;
+}
+.zhong .q-op{
+    background-color: #fb0f3a;
+    background-image: linear-gradient(to bottom,#fb0f3a 0,#f02353 100%);
+    width: 50px;
+    height: 130px;
+    position:relative;
+    left: 10px;
+    top:3px;
+}
+.zhong a{
+    position: relative;
+    display: block;
+    width: 52px;
+    height: 100%;
+    line-height: 22px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+.zhong b{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: -1px;
+    display: block;
+    width: 3px;
+    height: 100%;
+    background: url("../image/背景.png") top left repeat-y;
+}
+.zhong .tr{
+    position: relative;
+    display: block;
+    top: 20px;
+    left: 2px;
+    width: 20px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.zhong a {
+    text-decoration: none;
+    color:white;
+}
+.zhong .lie2{
+    margin-right: 30px;
+    width: 500px;
+}
+.zhong .lie3{
+    width: 500px;
+}
+.zhong .hang1{
+    background-color: white;
+    width: 2000px;
+}
+.zhong .hang2 {
+    background-color: white;
+    width: 2000px;
+}
+.zhong .hang3 {
+    background-color: white;
+    width: 2000px;
+}
+.zhong .hang4 {
+    background-color: white;
+    width: 2000px;
+}
+.zhong .hang5 {
+    background-color: white;
+    width: 2000px;
+}
+.zhong .hang6 {
+    background-color: white;
+    width: 2000px;
+}
+.zhong .hang7 {
+    background-color: white;
+    width: 2000px;
+}
+.zhong .hang8 {
+    background-color: white;
+    width: 2000px;
+}
+.zhong .hang9 {
+    background-color: white;
+    width: 2000px;
+}
+.zhong .hang10 {
+    background-color: white;
+    width: 2000px;
+}
+.zhong .hang11 {
+    background-color: white;
+    width: 2000px;
+}
+.zhong img:hover{
+    transform: translateX(5px);
+}
+.zhong .q-op:hover{
+    transform: scale(1.1);
+}
+footer{
+    width:100%;
+    background-color: #EAEAEA;
+}
+footer div:nth-of-type(1){
+    margin: 0 auto;
+    width:1450px;
+    padding: 20px 30px;
+    border-bottom: 1px solid darkgrey;
+    text-align: center;
+}
+footer .img{
+    margin-right: 100px;
+}
+footer ul li:nth-of-type(1){
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:#777;
+}
+footer li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+footer ul{
+    padding-left: 150px;
+    margin: 0;
+    margin-right: 50px;
+    display: inline-block;
+    float: left;
+}
+*{
+    font-family: 宋体;
+}
+footer div:nth-of-type(2){
+    padding: 25px 0;
+    width:1500px;
+    margin: 0 auto;
+    border-bottom: 1px solid darkgrey;
+    overflow: hidden;
+    text-align: center;
+}
+footer div:nth-of-type(2) ul:last-child{
+    margin: 0;
+}
+footer div:nth-of-type(3){
+    color:grey;
+    margin: 0 auto;
+    text-align: center;
+    margin:20px 0;
+}
+footer a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 5px;
+}
+footer a:hover{
+    text-decoration: none;
+}
+footer div:nth-of-type(4){
+    text-align: center;
+    margin: 0 auto;
+}
+footer div:nth-of-type(4) p a{
+    color:grey;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer div:nth-of-type(4) p a:hover{
+    text-decoration: none;
+    color:red;
+}
+footer div:nth-of-type(5){
+    text-align: center;
+}
+footer div:nth-of-type(5) img{
+    margin-right: 30px;
+}

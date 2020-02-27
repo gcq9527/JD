@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>京东-欢迎登录</title>
+	<link rel="icon" href="images/favicon.ico" mce_href="//www.jd.com/favicon.ico" type="image/x-icon" />
+	<Style type="text/css" >
+	*
+	{
+		margin: 0;
+		padding: 0;
+	}
+	li
+	{
+		list-style: none;
+	}
+		.nav
+		{
+			width: 990px;
+			margin: 0 auto;
+		}
+		.logo-box
+		{
+			height: 60px;
+			margin-top: 10px;
+		}
+
+		a
+		{
+			text-decoration: none;
+
+		}
+		.logo-box span
+		{
+			font-size: 22px;
+			color: #666;
+			padding-left: 20px;
+			margin-top: 10px;
+		}
+		.left
+		{
+			float:left;
+		}
+	
+		.pwd
+		{
+			
+			background-color: #202f36;
+		}
+		.box-pwd
+		{
+			width: 990px;
+			margin: 0 auto;
+		}
+		.logo-img
+		{
+			background-image: url(image/3689dc704f784aea.jpg);
+			height: 475px;
+		}
+		.box-rihgt
+		{
+			/*float: right;
+
+			width: 346px;
+			
+			margin-top: 45px;
+			background-color: #fff;*/
+			padding: 19px 25px 25px 25px;
+		}
+		.box-rihgt h1
+		{
+			font-size: 20px;
+			color: #666;
+			font-weight: normal;
+		}
+		.right
+		{
+			float: right;
+			font-size: 14px;
+			color: #c81623;
+			height: 29px;
+			line-height: 29px;
+			padding-left: 20px;
+			background:url(image/icon5.jpg) no-repeat 0 center;
+		}
+		.right:hover
+		{
+			text-decoration: underline;
+		}
+		.item1
+		{
+			height: 38px;
+			margin-bottom: 20px;
+			border: 1px solid #bdbdbd;
+			margin-top: 20px;
+		}
+		.item
+		{
+			background: url(image/icon1.jpg) no-repeat;
+		}
+		.item1 .item
+		{
+			width: 38px;
+			height: 38px;
+			border-right: 1px solid #bdbdbd;
+		}
+		.item1 input
+		{
+			border: 0 none;
+			outline: none;
+			float: left;
+			width: 233px;
+			padding: 10px 10px 10px 10px;
+		}
+		.item2
+		{
+			height: 38px;
+			border: 1px solid #bdbdbd;
+			margin-bottom: 20px;
+		}
+		.item2 i
+		{
+			background:url(image/icon2.jpg);
+		}
+		.item2 .pwd2
+		{
+			float: left;
+			width: 38px;
+			height: 38px;
+			border-right: 1px solid #bdbdbd;
+		}
+		.item2 input
+		{
+			float: left;
+			width: 233px;
+			outline: none;
+			border: 0 none;
+			padding:10px 10px 10px 10px;
+		}
+		.item3
+		{
+			font-size: 0;
+			margin-bottom: 15px;
+		}
+		.ite
+		{
+			font-size: 12px;
+			color: #666;
+			vertical-align: middle;
+		}
+		.ite input
+		{
+			vertical-align: middle;
+		}
+		.ite-right
+		{
+			float: right;
+			font-size: 12px;
+		}
+		.user
+		{
+			display: block;
+			text-align: center;
+			width: 300px;
+			background-color: #e4393c;
+			height: 35px;
+			line-height: 35px;
+			color: #fff;
+			border: none;
+			font-size: 18px;
+			cursor: pointer;
+		}
+		.bottom
+		{
+			width: 999px;
+			margin: 0 auto;
+		}
+		.wrap
+		{
+			text-align: center;
+			padding-bottom: 20px;
+		}
+		.dibu
+		{
+			color: #666;
+			padding-bottom: 15px;
+		}
+		.bottom .dibu{
+			margin-top: 20px;
+		}
+		.bottom .dibu a
+		{
+			color: #666;
+			font-size: 14px;
+			margin:0 10px;
+		}
+		.center
+		{
+			
+			font-size: 14px;
+			color: #666;
+		}
+		.tips
+		{
+			width: 100%;
+			background:#fff8f0;
+			padding-top: 10px;
+			text-align: center;
+			margin-top: 10px;
+			padding-bottom: 10px;
+		}
+		.connt_wrrapper
+		{
+			display: inline-block;
+			width: 90%;
+
+		}
+		.connt_icon{
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			vertical-align: middle;
+			margin-right: 5px;
+			background: url(images/icon-tips.png) no-repeat;
+		}
+		.connt_wrrapper p
+		{
+			font-size: 12px;
+			display: inline-block;
+			vertical-align: middle;
+			color: #999;
+		}
+		.connt_wrrapper p a
+		{
+			text-decoration: none;
+			color: #333;
+		}
+		.tips_box
+		{
+			
+			width: 100%;
+			background:#fff8f0;
+			padding-top: 10px;
+			text-align: center;
+			padding-bottom: 10px;
+		}
+		.tips_box p
+		{
+			font-size: 12px;
+			display: inline-block;
+			vertical-align: middle;
+			color: #999;
+		}
+		.R_secitl
+		{
+			float: right;
+			width: 346px;
+			margin-top: 45px;
+			background-color: #fff;
+		}
+		.box_footer
+		{
+			line-height: 50px;
+			padding-left: 20px;
+			padding-right: 20px;
+			border-top: 1px solid #f4f4f4;
+			background-color: #fcfcfc;
+			position: relative;	
+			font-size: 12px;
+		}
+		.pal
+		{
+			padding-left:24px;
+			position: relative;
+			display:inline-block;
+		}
+		.box_footer a
+		{
+			color: #999;
+		}
+		.QQ_icon
+		{
+			width: 19px;
+			height: 18px;
+			background: url(images/QQ-weixin.png) no-repeat;
+			position: absolute;
+			top: 16px;
+			left: 0px;
+			float: left;
+			margin: 0 auto;
+		}
+		.weixin_icon
+		{
+			width: 19px;
+			height: 18px;
+			background: url(images/QQ-weixin.png) no-repeat -20px 0;
+			position: absolute;
+			top: 16px;
+			left: 0px;
+			float: left;
+			margin: 0 auto;	
+		}
+		.line
+		{
+			color: #999;
+			padding: 0 10px;
+		}
+		.box_footer li
+		{
+			float: left;
+		}
+		.right_zhu
+		{
+			float: right;
+		}
+		.right_list 
+		{
+			color:#b61d1d;
+			font-size: 12px
+		}
+		.right_list i
+		{
+			width: 16px;
+			height: 16px;
+			display: inline-block;
+			background: url(images/pwd-icons-new.png) -104px -75px no-repeat;
+			margin-right: 5px;
+			vertical-align: middle;
+		}
+		.right_list a
+		{
+			color: #b61d1d;
+			font-size: 12px;
+		}
+	</Style>
+</head>
+<body>
+	 <header class="nav">
+	 	<div class="logo-box">
+	 		<h1 class="left">
+	 			<a href="#">
+	 				<img src="image/logo-201305-b.png" />
+	 			</a>
+	 		</h1>
+	 		<span class="logo-left left">欢迎登陆</span>
+	 	</div>
+	 </header>
+
+
+<div class="box-con">
+	<div class="tips">
+	 		<div class="connt_wrrapper">
+	 			<i class="connt_icon"></i>
+	 			<p>依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版
+	 				<a href="#">《京东隐私政策》</a>
+	 					已上线，将更有利于保护您的个人隐私。 	
+	 			</p>
+	 		</div>
+	 	</div>
+</div>
+	 <article class="pwd">
+	 	<div class="box-pwd">
+	 		<div class="logo-img">
+	 			<div class="R_secitl">
+	 				<div class="tips_box">
+							<i class="connt_icon"></i>
+	 			<p>京东不会以任何理由要求您转账汇款，谨防诈骗。</p>
+						</div>
+		 			<div class="box-rihgt">
+					<form method="post" action="notebook.html" >
+	 				<h1>京东会员
+	 				<a href="#" class="right">
+	 					立即注册
+	 				</a>
+	 				</h1>
+	 				<div class="item1">
+	 					<label class="item left"></label>
+	 					<input type="text" name="" /> 
+	 				</div>
+	 				<div class="item2">
+	 					<i class="pwd2"></i>
+	 					<input type="password" name="" />
+	 				</div>
+	 				<div class="item3">
+	 					<span class="ite">
+	 						<input type="checkbox" />
+	 						自动登录
+	 						<a href="#" class="ite-right">忘记密码</a>
+	 					</span>
+	 					
+	 				</div>
+						<button class="user">登&nbsp;录</button>
+	 				<!--<input type="images" src=""/> <a href="#" class="user">登&nbsp;录</a>-->
+					</form>
+					
+	 		</div>
+	 		<div class="box_footer">
+	 			<ul>
+	 				<li>
+	 					<a href="#" class="pal"><b class="QQ_icon"></b>QQ</a>
+	 					<span class="line">|</span>
+	 				</li>	
+	 				<li>
+	 					<a href="#" class="pal"><b class="weixin_icon"></b>微信</a>
+	 				</li>	
+	 				<li class="right_zhu" style="float: right;">
+	 					<div class="right_list">
+	 						<a href="#">
+	 							<i></i>
+	 							立即注册 	
+	 						</a>
+	 					</div>
+	 				</li>
+	 			</ul>
+	 		</div>
+	 	</div>
+	 	</div>
+	 </article>
+
+	 <footer class="bottom wrap">
+	 	<div class="dibu">
+	 		<a href="#">关于我们</a>|
+	 		 <a href="">联系我们</a>|
+	        <a href="">人才招聘</a>|
+	        <a href="">商家入驻</a>|
+	        <a href="">广告服务</a>|
+	        <a href="">手机京东</a>|
+	        <a href="">友情链接</a>|
+	        <a href="">销售联盟</a>|
+	        <a href="">京东社区</a>|
+	        <a href="">京东公益</a>|
+	        <a href="">English Site</a>
+	 	</div>
+	 	<span class="center">Copyright©2004-2017 京东JD.com 版权所有</span>
+	 </footer>
+</body>
+</html>

@@ -1,0 +1,328 @@
+img{
+    margin-right: 4em;
+    margin-left: 4em;
+}
+header{
+    vertical-align:middle;
+    text-align: center;
+    display:inline;
+    width:950px;
+    height: 101px;
+    padding:0;
+}
+button{
+    background-color: brown;
+    color:white;
+    border:7px solid brown;
+    position: relative;
+    top:-30px;
+    right: 4.2px;
+    margin-left: 0;
+}
+input{
+    width: 20em;
+    height: 25px;
+    margin-bottom: 3px;
+    border:3.2px solid brown;
+    vertical-align: middle;
+    position: relative;
+    top:-30px;
+    margin-right: 0;
+}
+.p{
+    position: relative;
+    top:-17px;
+}
+.hang{
+    text-align: center;
+    vertical-align: middle;
+    height: 20px;
+}
+.hang a{
+    margin-right: 2.5em;
+    color:black;
+    text-decoration: none;
+    font-size:18px;
+}
+.hang .lll{
+    background-color: red;
+    width:190px;
+    height: 33px;
+    display: inline-block;
+    color:white;
+}
+.hang .lll:hover{
+    color:white;
+}
+.hang a:hover{
+    color:red;
+}
+hr{
+    color:red;
+    height:2px;
+    background-color: red;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.xian{
+    border:0;
+    position:relative;
+    top:10px;
+}
+.tu{
+    width:800px;
+    text-align: center;
+    vertical-align: middle;
+    position:relative;
+    left: 107px;
+}
+.mao{
+    font-size: 16px;
+    margin: 0 auto;
+    padding:0 auto;
+    background-color: #fb8ca4;
+    width: 875px;
+    position:relative;
+    top:-3px;
+    right: 23px;
+}
+.mao a{
+    margin-right: 3em;
+    margin-left: 3em;
+}
+.j{
+    position:relative;
+    right: 112px;
+}
+.sp{
+    background-color:white;
+    width: 200px;
+    height: 350px;
+    margin: 0;
+    padding:0;
+    overflow:hidden;
+    border-radius: 15px;
+}
+article{
+    position:relative;
+    top: 8px;
+    display: inline;
+}
+.sp img{
+    position:relative;
+    right: 112px;
+}
+.sp p{
+    font-size:10px;
+    line-height:10px;
+}
+.sp .hong{
+    font-size:14px;
+    color:red;
+}
+.hua{
+    color:#999;
+    font-size:10px;
+    text-decoration: line-through;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+p img{
+    position:relative;
+    left: 135px;
+    top: -15px;
+}
+.sp p:nth-of-type(3){
+    position:relative;
+    top: -10px;
+}
+article a{
+    text-decoration: none;
+    color: black;
+    width:200px;
+}
+.pai{
+    position:relative;
+    left: -100px;
+    top:15px;
+    height: 20px;
+    width: 20px;
+}
+.zxc{
+    width:875px;
+    margin: 0 auto;
+    padding:0 auto;
+    vertical-align: middle;
+    height: 750px;
+}
+.v{
+    position:relative;
+    left:225px;
+    top:-350px;
+}
+.z{
+    position:relative;
+    left:450px;
+    top:-700px;
+}
+.c{
+    position:relative;
+    left:675px;
+    top:-1050px;
+}
+.q{
+    position:relative;
+    top:-1025px;
+}
+.w{
+    position:relative;
+    left:225px;
+    top:-1375px;
+}
+.e{
+    position:relative;
+    left:450px;
+    top:-1725px;
+}
+.r{
+    position:relative;
+    left:675px;
+    top:-2075px;
+}
+.ppp{
+    width:875px;
+    margin: 0 auto;
+    padding:0 auto;
+    vertical-align: middle;
+    height: 1000px;
+}
+.ooo{
+    width:875px;
+    margin: 0 auto;
+    padding:0 auto;
+    vertical-align: middle;
+    height: 900px;
+}
+.iii{
+    width:875px;
+    margin: 0 auto;
+    padding:0 auto;
+    vertical-align: middle;
+    height: 900px;
+}
+.mmm{
+    width:875px;
+    margin: 0 auto;
+    padding:0 auto;
+    vertical-align: middle;
+    height: 550px;
+}
+.ddd{
+    position:relative;
+    right: 64px;
+}
+.bjy{
+    position:relative;
+    right: 111px;
+    top:4px;
+}
+.lan{
+    background-color: black;
+    width: 40px;
+    height: 42px;
+    position:fixed;
+    top:175px;
+    left: 10px;
+    text-align: center;
+}
+.lan a{
+    text-decoration: none;
+    color:white;
+    font-size:15px;
+}
+.lan a:hover{
+    color:#60575a;
+    transform: scale(3) translateX(2);
+}
+.lan1{
+    background-color: black;
+    width: 40px;
+    height: 42px;
+    position:fixed;
+    text-align: center;
+    top:220px;
+    left: 10px;
+}
+.lan1 a{
+    text-decoration: none;
+    color:white;
+    font-size:15px;
+}
+.lan1 a:hover{
+    color:#60575a;
+    transform: scale(3) translateX(2);
+}
+.lan2{
+    background-color: black;
+    width: 40px;
+    height: 42px;
+    position:fixed;
+    top:265px;
+    left: 10px;
+    text-align: center;
+}
+.lan2 a{
+    text-decoration: none;
+    color:white;
+    font-size:15px;
+}
+.lan2 a:hover{
+    color:#60575a;
+    transform: scale(3) translateX(2);
+}
+.lan3{
+    background-color: black;
+    width: 40px;
+    height: 42px;
+    position:fixed;
+    top:310px;
+    left: 10px;
+    text-align: center;
+}
+.lan3 a{
+    text-decoration: none;
+    color:white;
+    font-size:15px;
+}
+.lan3 a:hover{
+    color:#60575a;
+    transform: scale(3) translateX(2);
+}
+.lan4{
+    background-color: black;
+    width: 40px;
+    height: 42px;
+    position:fixed;
+    top:355px;
+    left: 10px;
+    text-align: center;
+}
+.lan4 a{
+    text-decoration: none;
+    color:white;
+    font-size:15px;
+}
+.lan4 a:hover{
+    color:#60575a;
+    transform: scale(3) translateX(2);
+}
+.xxx{
+    background-color: #60575a;
+    color:#232326;
+}
+.sp img:hover{
+    transform: scale(1.1) translateX(5px);
+}
+.sp:hover{
+    box-shadow: 2px 2px 2px 2px #848484;
+}
